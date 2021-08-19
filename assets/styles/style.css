@@ -3,18 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.title {
-    position: absolute;
-    flex-wrap: wrap;
-    top: 2.2rem;
-    color: #101C2C;
-    letter-spacing: 1px;
-    text-align: center;
-    font-size: 35px;
-}
 
-
-
+ 
 body {
     font-family: 'Righteous', sans-serif;
     display: flex;
@@ -26,8 +16,8 @@ body {
 }
 
 .card{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: relative;
 
     transform-style: preserve-3d;
@@ -42,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0 , 0, 0, 0.45);
+    box-shadow: 5px 5px 5px rgba(0 , 0, 0, 0.45);
     backface-visibility: hidden;
 }
 
@@ -82,11 +72,11 @@ img{
 
 #restart{
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.1rem;
     background-color: yellow;
     border: none;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #gameBoard{
@@ -97,3 +87,14 @@ img{
     gap: 20px;
 }
 
+@media screen and (max-width: 524px){
+
+    .card{
+        width: 70px;
+        height: 70px;
+    }
+
+    img {
+        width: 80%;
+    }
+}
