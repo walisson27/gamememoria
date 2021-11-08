@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #c7cdd3;
+    height: 100vh;    
+    background-image: linear-gradient(to right,#373b44,#4286f4 );
     padding-top: 87px;
 }
 
